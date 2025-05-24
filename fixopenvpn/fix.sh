@@ -2,11 +2,11 @@
 
 # กำหนดไฟล์และ URL
 SERVER_CONF_LOCAL="/etc/openvpn/server.conf"
-SERVER_CONF_URL="https://raw.githubusercontent.com/sanglungmon/hunmai/refs/heads/main/fixopenvpn/server.conf"
+SERVER_CONF_URL="https://raw.githubusercontent.com/hunmai/script/refs/heads/main/fixopenvpn/server.conf"
 SERVER_CONF_BACKUP="/etc/openvpn/server.conf.bak"
 
 OPEN_PY_LOCAL="/etc/TH-VPN/open.py"
-OPEN_PY_URL="https://raw.githubusercontent.com/sanglungmon/hunmai/refs/heads/main/fixopenvpn/open.py"
+OPEN_PY_URL="https://raw.githubusercontent.com/hunmai/script/refs/heads/main/fixopenvpn/open.py"
 OPEN_PY_BACKUP="/etc/TH-VPN/open.py.bak"
 
 # ตรวจสอบสิทธิ์ root
