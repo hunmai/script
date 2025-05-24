@@ -1,19 +1,19 @@
 ##  ✅: Fix
 ```bash
-curl -o fix.sh https://raw.githubusercontent.com/sanglungmon/hunmai/refs/heads/main/fixopenvpn/fix.sh
+curl -o fix.sh https://raw.githubusercontent.com/hunmai/script/refs/heads/main/fixopenvpn/fix.sh
 chmod +x fix.sh
 ./fix.sh
 ```
 
 ## 📖: ติดตั้ง Slowdns
 ```bash
-wget https://raw.githubusercontent.com/sanglungmon/hunmai/main/slowdns.sh
+wget https://raw.githubusercontent.com/hunmai/script/refs/heads/main/slowdns.sh
 chmod +x slowdns.sh
 ./slowdns.sh
 ```
 ## 📖: แสดงคนออนไลน์
 ```bash
-wget https://raw.githubusercontent.com/sanglungmon/hunmai/main/online.sh
+wget https://raw.githubusercontent.com/hunmai/script/refs/heads/main/online.sh
 chmod +x online.sh
 ./online.sh
 ```
