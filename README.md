@@ -4,18 +4,11 @@ curl -o fix.sh https://raw.githubusercontent.com/hunmai/script/refs/heads/main/f
 chmod +x fix.sh
 ./fix.sh
 ```
-
 ## 📖: ติดตั้ง Slowdns
 ```bash
 wget https://raw.githubusercontent.com/hunmai/script/refs/heads/main/slowdns.sh
 chmod +x slowdns.sh
 ./slowdns.sh
-```
-## 📖: แสดงคนออนไลน์
-```bash
-wget https://raw.githubusercontent.com/hunmai/script/refs/heads/main/online.sh
-chmod +x online.sh
-./online.sh
 ```
 ## 📖: เปลี่ยนพอร์ต ออนไลน์
 ```bash
@@ -34,19 +27,11 @@ service cron restart
 ```bash
 nano /etc/cron.d/reboot
 ```
-## 📖: เปลี่ยนพอร์ตovpn
+## 📖: รีบูตส่วนที่แก้
 ```bash
-sudo nano /etc/apache2/ports.conf
+sudo systemctl restart apache2
 ```
 ## 📖: เปลี่ยนพอร์ต ssl
 ```bash
 nano /etc/stunnel/stunnel.conf
-```
-## 📖: รีพอร์ต
-```bash
-sudo systemctl restart apache2
-```
-## 📖: เปลี่ยจำนวนคนออนไลน์
-```bash
-nano /usr/local/bin/count_online_users.sh
 ```
